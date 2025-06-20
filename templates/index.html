@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="hero-section">
+  <div class="hero-content">
+    <!-- Profile image removed -->
+    <h2>I'm Julius Musau</h2>
+    <p>Data Scientist & ML Specialist | Solving real-world problems with code</p>
+    <a href="#projects" class="btn-accent">View Projects</a>
+  </div>
+</section>
+
+<section class="section" id="projects">
+  <h3 class="section-title">Featured Projects</h3>
+  <div class="project-grid">
+    {% for project in projects %}
+    <div class="project-card aos-fade-up">
+      <h4>{{ project.title }}</h4>
+      <p>{{ project.description }}</p>
+      <a href="{{ project.github }}" target="_blank" class="btn-secondary">GitHub</a>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

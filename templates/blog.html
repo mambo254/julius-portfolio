@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="section blog-section">
+  <h3 class="section-title">Blog</h3>
+  <div class="blog-grid">
+    {% for post in blog_posts %}
+      <div class="blog-card">
+        <h4>{{ post.title }}</h4>
+        <p class="meta">{{ post.date }}</p>
+        <p>{{ post.summary }}</p>
+        <a href="{{ url_for('blog_post', slug=post.slug) }}" class="btn-secondary">Read More</a>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

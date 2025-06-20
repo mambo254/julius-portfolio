@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Getting Started with Python",
+    "slug": "getting-started-python",
+    "date": "2024-04-15",
+    "summary": "A beginner-friendly guide to setting up Python and writing your first script.",
+    "content": "Python is a versatile programming language used for web development, data analysis, and more..."
+  },
+  {
+    "title": "Building Machine Learning Models",
+    "slug": "building-ml-models",
+    "date": "2024-05-01",
+    "summary": "Step-by-step guide on training and evaluating your first ML model using scikit-learn.",
+    "content": "To build a machine learning model, you'll need to first clean your data, choose a model, and train it..."
+  }
+]

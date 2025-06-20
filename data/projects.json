@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Diabetes Indicators",
+    "description": "Predicting diabetes risk using logistic regression and health data.",
+    "tools": ["Python", "Pandas", "Logistic Regression", "Healthcare"],
+    "github": "https://github.com/mambo254/diabetes-indicators"
+  },
+  {
+    "title": "Loan Default Prediction",
+    "description": "Built ML models to predict loan defaults using demographic and financial features.",
+    "tools": ["Python", "Scikit-learn", "Decision Trees", "Finance"],
+    "github": "https://github.com/mambo254/Loan-Default-Prediction"
+  },
+  {
+    "title": "Bike Rental Analysis",
+    "description": "Regression analysis on bike rental data to forecast rental costs.",
+    "tools": ["Python", "Random Forest", "Matplotlib", "Time Series"],
+    "github": "https://github.com/mambo254/Bike-Rental-Analysis"
+  }
+]
